@@ -28,7 +28,6 @@
 </p>
 
 ---
-<!--   <img src="https://wttr.in/Bordeaux?0p&lang=fr" alt="Bordeaux weather" /> -->
 
 ### 🐍 Mes contributions
 
