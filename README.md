@@ -28,19 +28,14 @@
 </p>
 
 ---
-
-### 🌍 Weather report (magnificent south of France)
-
-<p align="center">
-  <img src="https://wttr.in/Bordeaux?0p&lang=fr" alt="Bordeaux weather" />
-</p>
-
----
+<!--   <img src="https://wttr.in/Bordeaux?0p&lang=fr" alt="Bordeaux weather" /> -->
 
 ### 🐍 Mes contributions
 
 <p align="center">
-  <img src="https://github.com/AhmedFikado/AhmedFikado/raw/output/github-contribution-grid-snake.svg" alt="Snake Game Contributions" />
+  <img src="https://github.com/AhmedFikado/AhmedFikado/raw/output/github-contribution-grid-snake.svg" />
+  <img src="https://github.com/AhmedFikado/AhmedFikado/raw/main/github-contribution-grid-snake.svg" alt="Snake Game Contributions" />
+
 </p>
 
 ---
