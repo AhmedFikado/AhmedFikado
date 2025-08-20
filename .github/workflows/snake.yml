@@ -27,3 +27,6 @@ jobs:
         with:
           message: "update contribution snake"
           add: "*.svg"
+          push: true
+          default_author: github_actions
+          skip_empty: true
