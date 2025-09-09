@@ -33,6 +33,12 @@
 #       - name: Commit and Push the snake
 #         if: env.changes == 'true'
 #         uses: EndBug/add-and-commit@v9
+# ### 🐍 Mes contributions
+
+# <p align="center">
+#   <img src="https://github.com/AhmedFikado/AhmedFikado/raw/main/github-contribution-grid-snake.svg" alt="Snake Game Contributions" />
+
+# </p>
 #         with:
           message: "update contribution snake"
           add: "*.svg"
