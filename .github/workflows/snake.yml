@@ -1,38 +1,38 @@
-name: Generate Snake Game
+# name: Generate Snake Game
 
-on:
-  schedule:
-    - cron: "0 0 * * *"   
-  workflow_dispatch:       
+# on:
+#   schedule:
+#     - cron: "0 0 * * *"   
+#   workflow_dispatch:       
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+# jobs:
+#   generate:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v3
 
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: AhmedFikado
-          outputs: |
-            ./github-contribution-grid-snake.svg
+#       - name: Generate Snake Animation
+#         uses: Platane/snk@v3
+#         with:
+#           github_user_name: AhmedFikado
+#           outputs: |
+#             ./github-contribution-grid-snake.svg
 
-      - name: Check for changes
-        run: |
-          if git diff --quiet ./github-contribution-grid-snake.svg; then
-            echo "changes=false" >> $GITHUB_ENV
-          else
-            echo "changes=true" >> $GITHUB_ENV
-          fi
+#       - name: Check for changes
+#         run: |
+#           if git diff --quiet ./github-contribution-grid-snake.svg; then
+#             echo "changes=false" >> $GITHUB_ENV
+#           else
+#             echo "changes=true" >> $GITHUB_ENV
+#           fi
 
-      - name: Commit and Push the snake
-        if: env.changes == 'true'
-        uses: EndBug/add-and-commit@v9
-        with:
+#       - name: Commit and Push the snake
+#         if: env.changes == 'true'
+#         uses: EndBug/add-and-commit@v9
+#         with:
           message: "update contribution snake"
           add: "*.svg"
