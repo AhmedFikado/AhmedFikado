@@ -29,12 +29,6 @@
 
 ---
 
-### 🐍 Mes contributions
-
-<p align="center">
-  <img src="https://github.com/AhmedFikado/AhmedFikado/raw/main/github-contribution-grid-snake.svg" alt="Snake Game Contributions" />
-
-</p>
 
 ---
 
