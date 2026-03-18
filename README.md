@@ -1,6 +1,6 @@
 <h1 align="center">Hello world, I'm Ahmed !</h1>
 <p align="center">
-  Fullstack developer from France<br>
+  Student at Epitech - From France<br>
   <em>"Living is not a crime."</em>
 </p>
 
