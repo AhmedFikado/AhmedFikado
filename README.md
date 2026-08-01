@@ -28,9 +28,6 @@
 
 ---
 
-
----
-
 ## 📬 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://linkedin.com/in/ahmed-firoum/)
