@@ -28,14 +28,6 @@
 
 ---
 
-### 📈 Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmedFikado&layout=compact&theme=github_dark" alt="stack used the most " />
-</p>
-
----
-
 
 ---
 
